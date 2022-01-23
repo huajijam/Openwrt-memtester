@@ -4,9 +4,8 @@ PKG_NAME:=memtester
 PKG_VERSION:=4.5.1
 PKG_RELEASE:=1
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gzg
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=http://pyropus.ca/software/memtester/old-versions/
-PKG_HASH:=1c5fc2382576c084b314cfd334d127a66c20bd63892cac9f445bc1d8b4ca5a47
 PKG_MAINTAINER:=huajijam <strhuaji@gmail.com>
 
 include $(INCLUDE_DIR)/host-build.mk
